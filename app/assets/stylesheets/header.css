@@ -1,0 +1,42 @@
+.header{
+    border-bottom: 0.133em solid red;  
+    width: 80%;
+    padding-top: 8%;
+    margin: 0  auto;  
+    
+}
+
+.header h1{
+    font-size: 200%;
+    margin: 0 0 0.6em 2em;         
+    float: left;
+}
+
+.links-sociais{
+    margin-left: 55rem;
+    margin-bottom: 0.6rem;
+}
+
+.links-sociais li{
+    display: inline-block; 
+}
+
+.links-sociais a{
+    display: block;
+    margin-right: 1rem;
+    width:  32px;
+    height: 32px;
+    text-indent: -9999px;
+
+}
+
+.github{
+    background-image: url(../assets/github.png);
+}
+
+.linkedin{
+    background-image: url(../assets/linkedin.png);
+}
+
+
+
