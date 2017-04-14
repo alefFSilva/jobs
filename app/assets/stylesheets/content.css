@@ -1,0 +1,25 @@
+.content{
+    border: 1px solid black;
+    height: 500px;
+    float: left;
+    margin-top: 2rem;
+    width: 75%;
+}
+
+.about h1{
+    font-family: "Slabo", sans-serif;
+    font-size: 160%;
+}
+.about{
+    
+    border-left: .4em solid red;
+    width:  42em; 
+    height: auto;
+    text-indent: 2em;
+    
+    margin-left: 5em;
+    background-color:  #e1e1d0;
+}
+.about p{
+    padding: 1em;
+}

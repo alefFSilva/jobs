@@ -1,5 +1,5 @@
 .header{
-    border-bottom: 0.133em solid red;  
+    border-bottom: 0.122em solid red;  
     width: 80%;
     padding-top: 8%;
     margin: 0  auto;  
@@ -7,14 +7,14 @@
 }
 
 .header h1{
-    font-size: 200%;
+    font-size: 250%;
     margin: 0 0 0.6em 2em;         
     float: left;
 }
 
 .links-sociais{
-    margin-left: 55rem;
-    margin-bottom: 0.6rem;
+    margin-left: 55em;
+    margin-bottom: 1.5em;
 }
 
 .links-sociais li{

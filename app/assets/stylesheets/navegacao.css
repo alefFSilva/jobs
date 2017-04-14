@@ -1,7 +1,20 @@
 .navegacao{
-    border: 1px solid black;
 
+    float: left;
     clear:left;
-    width: 14%;
-    margin: 2rem 0 0 2rem;
+    width: 13%;
+    margin: 2rem 0 0 1rem;
+    box-sizing:content-box;
+    
+    font-size: 130%;
+    font-family: "Merriweather", sans-serif;
+}
+
+.navegacao li{
+    padding: .5em;
+}
+
+.navegacao :hover{
+    font-size: 120%;
+
 }

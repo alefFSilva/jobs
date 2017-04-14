@@ -1,0 +1,9 @@
+.footer{
+    clear: both;
+    border-top: .2em solid black;
+}
+
+.footer p{
+    padding: 1em;
+    color: red;
+}
