@@ -5,3 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Temas = [
+  {descricao: ".NET C#",       ativo:true},
+  {descricao: "Ruby on Rails", ativo:true},
+  {descricao: "Android",       ativo:true},
+  {descricao: "Xamarin",       ativo:true}
+]
+
+Temas.each do |tema|
+  Tema.create!(tema)
+end

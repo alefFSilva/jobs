@@ -1,16 +1,16 @@
 
 <header class ="header">
 
-    
+
     <h1 class="titulo-principal">Alef Silva - Portfolio</h1>
     <ul class="links-sociais">
         <li>
             <a class="github" href="https://github.com/alefFSilva" target="_blank">
                 Github
-            </a>       
+            </a>
         </li>
         <li>
-            <a class="linkedin" href="https://www.linkedin.com/in/alef-silva-3b4a04100/" target="_blank"> 
+            <a class="linkedin" href="https://www.linkedin.com/in/alef-silva-3b4a04100/" target="_blank">
                 LinkedIn
             </a>
         </li>
@@ -18,18 +18,11 @@
 </header>
 <nav>
     <ul class="navegacao">
+      <% @temas.each do |tema| %>
         <li>
-            <a href="#">C#</a>
+            <a href="#"> <%= tema.descricao  %>  </a>
         </li>
-        <li>
-            <a href="#">Android</a>
-        </li>
-        <li>
-            <a href="#">Java</a>
-        </li>
-        <li>
-            <a href="#">Certificados</a>
-        </li>
+        <% end %>
     </ul>
 </nav>
 
