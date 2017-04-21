@@ -1,8 +1,10 @@
 .content{
-    border: 1px solid black;
-    height: 500px;
+     /*border: 1px solid black; */
+    
+    height: auto;
     float: left;
-    margin-top: 2rem;
+    margin: 2em 0em 4em 0em;
+    padding: 0em 0em 4em 0em;
     width: 75%;
 }
 
@@ -17,8 +19,9 @@
     height: auto;
     text-indent: 2em;
     
-    margin-left: 5em;
-    background-color:  #e1e1d0;
+    margin: 0 auto;
+    
+    background-color:  white;
 }
 .about p{
     padding: 1em;
