@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170415001141) do
+ActiveRecord::Schema.define(version: 20171003024739) do
 
   create_table "temas", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string  "descricao"
+    t.boolean "ativo"
+  end
+
+  create_table "usuarios", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.string  "login"
+    t.string  "email"
+    t.string  "password"
     t.boolean "ativo"
   end
 

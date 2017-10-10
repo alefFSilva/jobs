@@ -1,11 +1,11 @@
 .post{
     border: 1px solid white;
-    height: 30em;
+    height: auto;
     
     margin: 0 auto;
     margin-top: 4em;
     width: 45em;
-    
+    padding-bottom: 2em;
     background-color: white;
     
     box-shadow: 0 10px 20px -7px #777;
@@ -23,4 +23,21 @@
 .post h1 hr{
     width: 15em;
     border-color: red;
+}
+
+.post p {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+
+.img-post{
+    
+    display: block;
+    margin:  0 auto;
+    width: 20em;
+    height: 27em;
+    
+    border: 0.1em solid gray;
+    
 }
